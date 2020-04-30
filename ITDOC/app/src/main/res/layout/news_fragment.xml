@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:ools="http://schemas.android.com/tools"
+    xmlns:tools="http://schemas.android.com/apk/res-auto">
+
+
+    <ScrollView
+
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        tools:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_constraintEnd_toEndOf="parent"
+        tools:layout_constraintStart_toStartOf="parent"
+        tools:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="150dp"
+
+                android:background="@drawable/photo1"
+
+                android:scaleType="fitEnd"
+
+
+                android:text="@string/fire"
+                android:textAlignment="center"
+                android:textColor="#FFFF"
+                android:tint="#99583737" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="150dp"
+
+                android:background="@drawable/koronavirus1"
+
+                android:scaleType="center"
+
+
+                android:text="@string/koronavirustxt"
+                android:textAlignment="center"
+                android:textColor="#FFFF"
+                android:tint="#99583737" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:background="@drawable/pills"
+                android:scaleType="centerInside"
+                android:text="@string/pills"
+                android:textAlignment="center"
+                android:textColor="#FFFF"
+                android:tint="#99583737" />
+
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:background="@drawable/poison"
+                android:scaleType="centerInside"
+                android:text="@string/poison"
+                android:textAlignment="center"
+                android:textColor="#FFFF"
+                android:tint="#99583737" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:background="@drawable/sport"
+                android:scaleType="centerInside"
+                android:text="@string/sportwithheadache"
+                android:textAlignment="center"
+                android:textColor="#FFFF"
+                android:tint="#99583737" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:background="@drawable/happiness"
+                android:scaleType="centerInside"
+                android:text="@string/happiness"
+                android:textAlignment="center"
+                android:textColor="#FFFF"
+                android:tint="#99583737" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:background="@drawable/backbone"
+                android:scaleType="centerInside"
+                android:text="@string/backbone"
+                android:textAlignment="center"
+                android:textColor="#FFFF"
+                android:tint="#99583737" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:background="@drawable/holloware"
+                android:scaleType="centerInside"
+                android:text="@string/holloware"
+                android:textAlignment="center"
+                android:textColor="#FFFF"
+                android:tint="#99583737" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:background="@drawable/machine"
+                android:scaleType="centerInside"
+                android:text="@string/machine"
+                android:textAlignment="center"
+                android:textColor="#FFFF"
+                android:tint="#99583737" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:background="@drawable/junkfood"
+                android:scaleType="centerInside"
+                android:text="@string/junkfood"
+                android:textAlignment="center"
+                android:textColor="#FFFF"
+                android:tint="#99583737" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
